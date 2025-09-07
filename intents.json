@@ -1,0 +1,171 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hello",
+				"Hey",
+				"Good morning",
+				"Good afternoon",
+				"Good evening",
+				"What's up",
+				"How's it going?",
+				"Yo",
+				"Greetings"
+			],
+			"responses": [
+				"Hello! How are you today?",
+				"Hey there, nice to see you again!",
+				"Hi! Whats on your mind?",
+				"Greetings, friend! How can I help you today?"
+			]
+		},
+        {
+            "tag": "help",
+            "patterns":[
+                "help",
+                "what is this",
+                "can you help me?",
+                "i need assistance",
+                "how does this work?",
+                "explain this to me",
+                "what can you do?",
+                "i`m confused",
+                "show me how to use this",
+                "i need some guidance",
+                "please help",
+                "how do i use this bot?",
+                "what commands can i use?",
+                "can you assist me?",
+                "what are you able to do?"
+             ],
+            "responses":[
+                "This chatbot was created using pytorch and can take in simple questions such as adding stocks or showing stocks",
+                "You can ask me things like 'What is programming?' or 'what languages should I learn"
+
+            ]
+        },
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Goodbye",
+				"See you later",
+				"Bye",
+				"Cya",
+				"Catch you later",
+				"Farewell",
+				"I have to go",
+				"Talk to you soon",
+				"Peace out"
+			],
+			"responses": [
+				"Goodbye!",
+				"See you next time ",
+				"bye",
+				"Talk to you soon!"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"Thx",
+				"Much appreciated",
+				"Thanks a lot",
+				"Thanks so much",
+				"Thanks buddy",
+				"Thanks chatbot"
+			],
+			"responses": [
+				"You're very welcome!",
+				"Anytime! Happy to help.",
+				"No problem at all.",
+				"Glad I could assist!"
+			]
+		},
+		{
+			"tag": "programming",
+			"patterns": [
+				"What is programming?",
+				"Tell me about coding",
+				"What is coding?",
+				"Explain software development",
+				"What do programmers do?",
+				"Why learn coding?",
+				"Is coding difficult?"
+			],
+			"responses": [
+				"Programming is the process of writing instructions for a computer to perform tasks.",
+				"Coding, or software development, is how we create apps, games, and websites.",
+				"Programming is essentially problem-solving using logic and code."
+			]
+		},
+		{
+			"tag": "languages",
+			"patterns": [
+				"What programming languages should I learn?",
+				"Best programming language?",
+				"Which language is easiest?",
+				"Should I learn Python or Java?",
+				"Tell me about programming languages"
+			],
+			"responses": [
+				"Python is great for beginners and widely used in AI, data science, and web development.",
+				"Java is versatile and used in large-scale enterprise systems.",
+				"JavaScript is essential for web development.",
+				"It depends on your goals: Python for simplicity, C++ for performance, Java for scalability."
+			]
+		},
+		{
+            "tag": "add_stock",
+            "patterns": [
+                "add a stock",
+                "i want to add a stock",
+                "save a stock",
+                "add to my portfolio"
+            ],
+            "responses": [
+                "Okay, tell me which stock to add."
+            ]
+            },
+		{
+			"tag": "show_stocks",
+			"patterns": [
+				"What are my stocks?",
+				"Which stocks do I own?",
+				"Show my stock portfolio",
+				"How are my investments doing?",
+				"Check my portfolio"
+			],
+
+            
+			"responses": [
+				"Here are your current stocks!",
+				"Pulling up your portfolio now...",
+				"Your investments are looking solid today.",
+				"Here’s a breakdown of your stock holdings."
+			]
+		},
+		{
+			"tag": "weather",
+			"patterns": [
+				"What's the weather?",
+				"How's the weather today?",
+				"Will it rain today?",
+				"Tell me the forecast",
+				"Is it sunny?",
+				"Weather update please"
+			],
+			"responses": [
+				"The weather looks great today! Perfect for going outside.",
+				"It seems cloudy with a chance of rain later.",
+				"Sunny skies are expected today!",
+				"It might rain, so keep an umbrella handy."
+			]
+		}
+
+		
+	]
+}
